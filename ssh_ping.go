@@ -51,7 +51,7 @@ func min(s []time.Duration) time.Duration {
 }
 
 func median(s []time.Duration) time.Duration {
-	return computeDurationStat(stats.Min, s)
+	return computeDurationStat(stats.Median, s)
 }
 
 func percentile(percent float64, s []time.Duration) time.Duration {
